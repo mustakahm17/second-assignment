@@ -1,0 +1,401 @@
+body{
+    font-family: "Quicksand", serif;
+    width: 100%; 
+    padding-left: none;
+    margin-left: none;
+
+} 
+
+.nintyPerBody{
+
+    max-width: 94%;
+    margin-left: 3%;  
+    margin-right: 3%;
+    align-items: center;
+    align-self: center;
+}
+
+.logo{
+    display: flex;
+}
+.logo > img{
+    width: 62px;
+    height: 62px;
+}
+nav > ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 20px;
+}
+nav > ul > li a{
+    text-decoration: none;
+}
+
+/* .home a {
+    color: orange;
+} */
+/* .nav-items li:first-child > a{
+    color: orange;
+} */
+.nav-items li:nth-child(1) > a{
+    color: orange;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.nav-items li:nth-child(2) > a{
+    color: #01ACFD;
+    font-weight: 500px;
+    font-size: 1.2rem;
+}
+.nav-items li:nth-child(3) > a{
+    color: #05D4DF;
+    font-weight: 500px;
+    font-size: 1.2rem;
+}
+.nav-items li:nth-child(4) > a{
+    color: #5D58EF;
+    font-weight: 500px;
+    font-size: 1.2rem;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > button{
+   background-color: orange;
+   width: 197px;
+   height: 50px;
+   color: white;
+   border-radius: 10px;
+   border: none;
+   text-decoration: none;
+   font-weight: 500px;
+   font-size: 1.2rem;
+}
+.navbar svg{
+    display: none;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+    gap: 30px;
+}
+.hero-title{
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+.empower{
+    color: orange;
+}
+.vision{
+    color: skyblue;
+}
+.hero-description{
+    color: black;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.enroll-btn{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    width: 190px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.curriculum{
+    background: url('assets/bg.png');
+
+    position: relative;
+}
+.curriculum-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+.card{
+    display: flex;
+    gap: 30px;
+}
+.card-1{
+  background: linear-gradient(to bottom, #e6f5ff, #ffffff);
+  border-radius: 15px; 
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+}
+.card-1 h5{
+    color: #64C8FF;
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+.card-2{
+        background: linear-gradient(to bottom, #fff5db, #ffffff);
+        border-radius: 15px;
+        padding: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+}
+.card-2 h5{
+    color: #F0AA00;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.card-3{
+    background: linear-gradient(to bottom, #f3eaff, #ffffff);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.card-3 h5{
+    color: #8700FF;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+   .hero{
+    flex-direction: column-reverse;
+    /* position: absolute; */
+    width: 100%;
+   } 
+   .nav-items{
+    display: none;
+   }
+   .navbar{
+    justify-content: space-between;
+   }
+   .school{
+    display: none;
+   }
+   .contact-btn{
+    display: none;
+   }
+   .card{
+    flex-direction: column;
+   }
+
+   .navbar svg{
+    display: block;
+   }
+   body{
+    /* margin: 10px; */
+    padding: 10px;
+   }
+
+   .hero-img{
+
+    /* 
+    
+        padding-left: 20x;
+        align-self: center;
+        align-items: center; */
+        max-width: 100%;
+    
+    }
+    .hero-img img {
+        /* padding: 25px; */
+    
+        max-width: 320px;
+        height: auto;
+    }
+  
+}
+
+.bgImg{
+    /* padding: 20px; */ 
+    padding-left: none;
+    width: 100%;
+    background: linear-gradient(to bottom ,#FFFFFF ,#FEA301);
+}
+
+.stories{
+    display: flex; 
+    -ms-flex-align: center;
+    gap: 20px;
+    padding: 20px;  
+    margin-left: 10%;
+
+}
+
+.stories-sec  button{
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+}
+
+.stories-sec h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+.large-card{
+    width: 500px;
+    /* height: 650px; */
+    background: white;
+    border-radius: 15px;
+    overflow: hidden; 
+    position: relative;
+}
+
+.absoluteButton{
+    background-color: #01ACFD;
+    border-radius: 20px;
+    position: absolute;
+    padding: 10px;
+    border:none; 
+    margin-left: 20px;
+}
+
+.larCardBtn{
+    top:  250px;
+}
+
+.smCardBtn{
+    top:155px;
+}
+
+.large-card img {
+    width: auto;
+    height: 300px;
+}
+
+.content{
+    padding: 20px;
+}
+.content h2{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.content p {
+    font-size: 14px;
+    font-weight: 400px;
+    color: #666666;
+}
+
+.small-cards .small-card-ind:nth-child(1)  button{
+    background-color: #95B226;
+}
+
+.small-cards .small-card-ind:nth-child(4)  button{
+    background-color: #95B226;
+}
+
+.small-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+
+.small-card-ind{
+    max-width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    align-items: center;
+    position: relative;
+}
+.small-card-ind img{
+    height: 200px;
+    max-width: 100%;
+    align-self: center;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.small-card-ind h2 {
+    /* font-size: 10px; */
+    font-weight: bold;
+    font-size: 1rem;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.small-card-ind button{
+    position: absolute;
+}
+
+.stories-sec div button{
+    margin-top: 30px;
+}
+.view-btn{
+    background-color: black;
+    width: 190px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    /* text-decoration: none;  */
+    font-size: 1rem; 
+    align-self: center;
+    text-align: center;
+    margin-left: 45%;
+    margin-bottom: 20px;
+
+}
+.footer{
+    background-color: #01ACFD;
+    color: white;
+    display: flex;
+    gap: 40px;
+    padding: 30px;  
+
+}
+.kids-edu{
+    max-width: 40%;
+}
+.kids-edu-content{
+    display: flex;
+}
+.about-school li{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+    .large-card{
+        display: none;
+    }
+
+    .footer{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
